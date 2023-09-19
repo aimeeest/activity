@@ -1,0 +1,119 @@
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  color: white;
+  background-color: black;
+  width: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.chat-name {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.name {
+  font-size: 37px;
+}
+
+.chat-text {
+  line-height: 0.5px;
+  text-align: left;
+}
+
+p.desc {
+  font-size: 15px;
+  color: dimgray;
+}
+
+.chat-bubble {
+  padding: 10px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  width: auto; 
+  max-width: 75%; 
+  word-wrap: break-word; 
+  margin-bottom: 20px;
+}
+.contact-person {
+  display: flex;
+  align-items: center;
+  
+}
+
+.contact {
+  background-color: dimgray;
+  float: left;
+}
+
+.me {
+  background-color: deepskyblue;
+  float: right;
+}
+
+img {
+  border-radius: 60px;
+  border: 1px solid dimgray;
+  margin: 10px;
+}
+
+.top {
+  width: 80px;
+  height: 80px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.time {
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.contact-initial {
+  background-color: dimgray;
+  float: left;
+  margin-left: 63px;
+  margin-bottom: 0;;
+}
+
+input {
+
+  color: white;
+  width: 80%;
+  height: 20px;
+  background-color: dimgray;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+hr {
+  margin: 0;
+  width: 100%;
+  border: 1px solid dimgray;
+  box-sizing: content-box;
+}
+
+.new-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
